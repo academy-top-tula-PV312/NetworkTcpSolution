@@ -73,7 +73,7 @@ async Task SendMessageAsync(StreamWriter writer)
     while(true)
     {
         string? message = Console.ReadLine();
-        await writer.WriteLineAsync(name);
+        await writer.WriteLineAsync(message);
         await writer.FlushAsync();
     }
 }

@@ -44,7 +44,7 @@ namespace TcpChatServerApp
                         
                         if (message == null) continue;
 
-                        message = $"{clientName}: message";
+                        message = $"{clientName}: {message}";
                         await server.SendMessageAsync(Id, message);
                         Console.WriteLine(message);
                     }
