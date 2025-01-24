@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpTranslateServerApp", "Tc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpTranslateClientApp", "TcpTranslateClientApp\TcpTranslateClientApp.csproj", "{3518C0A8-BAA3-46B1-A546-D97B9872DA34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatServerApp", "TcpChatServerApp\TcpChatServerApp.csproj", "{8690A632-7C53-4CAD-B488-1C404B440CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatClientApp", "TcpChatClientApp\TcpChatClientApp.csproj", "{FE38E57B-869C-4625-A8BB-7A043E5C5D0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{3518C0A8-BAA3-46B1-A546-D97B9872DA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3518C0A8-BAA3-46B1-A546-D97B9872DA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3518C0A8-BAA3-46B1-A546-D97B9872DA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8690A632-7C53-4CAD-B488-1C404B440CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8690A632-7C53-4CAD-B488-1C404B440CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8690A632-7C53-4CAD-B488-1C404B440CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8690A632-7C53-4CAD-B488-1C404B440CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE38E57B-869C-4625-A8BB-7A043E5C5D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE38E57B-869C-4625-A8BB-7A043E5C5D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE38E57B-869C-4625-A8BB-7A043E5C5D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE38E57B-869C-4625-A8BB-7A043E5C5D0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
