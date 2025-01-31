@@ -9,7 +9,7 @@ namespace TcpChatServerApp
 {
     public class TcpChatClient
     {
-        //   
+        // Second branch
         public Guid Id { get; }
         public StreamReader Reader { get; }
         public StreamWriter Writer { get; }
