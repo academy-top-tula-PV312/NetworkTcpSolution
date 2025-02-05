@@ -18,7 +18,8 @@ namespace TcpChatServerApp
 
         public TcpChatServer()
         {
-            ip = Dns.GetHostAddresses(Dns.GetHostName(), AddressFamily.InterNetwork)[0];
+            //ip = Dns.GetHostAddresses(Dns.GetHostName(), AddressFamily.InterNetwork)[0];
+            ip = IPAddress.Loopback;
             port = 5000;
             listener = new(ip, port);
 
